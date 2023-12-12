@@ -17,6 +17,7 @@
 .gridItem2{
     background-color: #fff;
     padding: 20px 0;
+    height: fit-content;
 }
 
 .requestText{

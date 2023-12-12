@@ -3,8 +3,8 @@ import classes from "./Resetpassword.module.css"
 import { Link } from 'react-router-dom'
 const Resetpassword = () => {
   return (
-    <>
-    <div className={classes.bg}>
+    <div className={"bg"}>
+      <div>
       <img
         src="https://staflate.pro/img/logo.png"
         alt="Logo"
@@ -43,10 +43,11 @@ const Resetpassword = () => {
         </div>
       </div>
     </div>
-    <div className={classes.bgFooter}>
+    <div className={"hDiv"}></div>
+    <div className={"bgFooter"}>
       <h4>Copyright &copy; 2023 Staflate</h4>
+      </div>
     </div>
-    </>
   )
 }
 
