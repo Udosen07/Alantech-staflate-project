@@ -7,7 +7,7 @@ const Header = ({header, text}) => {
     <div className={`${classes.header}`}>
     <div className={`container `}>
       <h4 className={classes.headerText}>{header}</h4>
-      <p className={classes.headerP}><Link to="Dashboard" className={classes.headerLink}>Home</Link> / {text}</p>
+      <p className={classes.headerP}><Link to="/" className={classes.headerLink}>Home</Link> / {text}</p>
     </div>
     </div>
   )

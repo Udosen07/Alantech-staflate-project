@@ -152,7 +152,7 @@ const Layout = ({ children }) => {
               </>
             )}
           </div></Link>
-          <Link to="/Dashboard" class="link"><div className={`sideBar-bg`}>
+          <Link to="/" class="link"><div className={`sideBar-bg`}>
             {
               navControl ? (<><IoMdHome /> <h4 className={classes.sidebarTextMedia}>Dashboard</h4></>) : (<><IoMdHome />
               <h4 className={classes.sidebarText}>Dashboard</h4></>)

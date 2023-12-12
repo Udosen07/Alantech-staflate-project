@@ -13,15 +13,15 @@ import Profile from "./main-pages/Profile";
 function App() {
   return (
     <Routes>
-      <Route path="Signup" element={<Signup />} />
-      <Route path="Signin" element={<Signin />} />
-      <Route path="Resetpassword" element={<Resetpassword />} />
-      <Route path="Dashboard" element={<Dashboard />} />
-      <Route path="Classroom" element={<Classroom />} />
-      <Route path="Marketplace" element={<Marketplace />} />
-      <Route path="Referral" element={<Referral />} />
-      <Route path="Withdrawal" element={<Withdrawal />} />
-      <Route path="Profile" element={<Profile />} />
+      <Route path="/Signup" element={<Signup />} />
+      <Route path="/Signin" element={<Signin />} />
+      <Route path="/Resetpassword" element={<Resetpassword />} />
+      <Route path="/" element={<Dashboard />} />
+      <Route path="/Classroom" element={<Classroom />} />
+      <Route path="/Marketplace" element={<Marketplace />} />
+      <Route path="/Referral" element={<Referral />} />
+      <Route path="/Withdrawal" element={<Withdrawal />} />
+      <Route path="/Profile" element={<Profile />} />
     </Routes>
   );
 }
