@@ -1,0 +1,41 @@
+
+
+.bg{
+    background: #fff;
+    width: fit-content;
+    color: #4E5E6A;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: auto;
+    padding: 20px 10px;
+    
+}
+
+
+
+p{
+    font-size: 14px;
+}
+
+h6{
+    font-size:15px;
+    font-weight: normal;
+}
+
+button{
+    width: 100%;
+    background-color: rgb(34,186,160);
+    color: white;
+    border: 1px solid rgb(34,186,160);
+    padding: 5px;
+}
+
+.referralFooter{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-top: 20px;
+}

@@ -1,0 +1,75 @@
+.profileGrid{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+    padding-bottom: 50px;
+    height: 65vh;
+    overflow-y: scroll;
+}
+
+.profileGrid::-webkit-scrollbar {
+    width: 0;
+  }
+
+.gridItem{
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.gridItem2{
+    background-color: #fff;
+    padding: 20px 0;
+    height: 350px;
+}
+
+.editText{
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.submitBtn{
+    width:100%;
+    background-color:rgb(34,186,160);
+    color:white;
+    margin-top: 15px;
+}
+
+.withdrawalDiv{
+    text-align: left;
+    background-color: black;
+    color: #fff;
+    width: 90%;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-top-left-radius: 15px;
+    
+
+}
+
+.Div{
+    justify-content: space-between;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+.changes{
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 750px) {
+.profileGrid{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+}

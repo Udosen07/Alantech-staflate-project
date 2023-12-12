@@ -1,0 +1,58 @@
+.classGrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    height: 65vh;
+    overflow-y: scroll;
+}
+
+.classGrid::-webkit-scrollbar {
+    width: 0;
+  }
+
+.classGridItem{
+    background-color: #fff;
+    width: 100%;
+    
+}
+
+.width{
+    height: fit-content;
+    padding: 15px;
+}
+
+.iframe{
+    width: 100%;
+}
+
+.accordionBtn{
+    width: 100%;
+    background-color: #34425a;
+    margin: 10px 0;
+    color: #fff;
+    padding: 10px;
+}
+
+.plus{
+    float: right;
+    cursor: pointer;
+}
+
+.content{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 750px) {
+    .classGrid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-top: 30px;
+        padding-bottom: 50px;
+        height: 65vh;
+        overflow-y: scroll;
+    }
+}

@@ -1,0 +1,129 @@
+.bg{
+    background-color: #11C0AF;
+    width: 100%;
+    
+}
+
+.bgLogo{
+    height: 10%;
+    width: 10%;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.bgBox{
+    border-left: 1px solid #0A7167;
+    border-right: 1px solid #0A7167;
+    box-shadow: 0 5px 15px rgba(0,0,0,.35);
+    background: transparent;
+    width: 550px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.form{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 430px;
+        width: 100%;
+        background: #fff;
+        border-top-right-radius: 24px;
+        border-top-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+    
+}
+.actualForm{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 320px;
+    width: 100%;
+    padding: 20px 0;
+}
+h3{
+    text-align: center;
+}
+
+
+.formBtn{
+    background-color: #0FA797;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 20px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #0FA797;
+    border-radius: 5px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footerLink{
+    text-decoration: none;
+    color: #5E605E;
+}
+
+.bgFooter{
+    background-color: #EAF2F1;
+    width: 100%;
+    padding: 30px 0;
+    
+}
+
+h4{
+    font-size: 16px;
+    color: #6E6A6A;
+    font-weight: normal;
+    text-align: right;
+    margin-right: 120px;
+}
+
+.forgot{
+    text-decoration: none;
+    color: #5E605E;
+}
+
+@media only screen and (max-width: 600px){
+    .bgLogo{
+        width: 100px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .form{
+        margin-left: auto;
+        margin-right: auto;
+        
+        width: 85%;
+        background: #fff;
+        border-top-right-radius: 24px;
+        border-top-left-radius: 24px;
+        border-bottom-right-radius: 24px;
+        border-bottom-left-radius: 24px;
+    
+}
+
+.actualForm{
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 100%;
+    padding: 30px 0;
+}
+
+.bgBox{
+    border-left:none;
+    border-right: none;
+    box-shadow: none;
+    background: none;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+}

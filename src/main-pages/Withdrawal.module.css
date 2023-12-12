@@ -1,0 +1,62 @@
+
+
+.withdrawalGrid{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.gridItem{
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.gridItem2{
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.requestText{
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.requestBtn{
+    width:100%;
+    background-color:rgb(34,186,160);
+    color:white;
+}
+
+.withdrawalDiv{
+    text-align: left;
+    background-color: black;
+    color: #fff;
+    width: 90%;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-top-left-radius: 15px;
+    
+
+}
+
+.Div{
+    justify-content: space-between;
+    border: 1px solid #fff;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 750px) {
+    .withdrawalGrid{
+        display: grid;
+        gap: 40px;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+}

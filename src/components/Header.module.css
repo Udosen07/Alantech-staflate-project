@@ -1,0 +1,20 @@
+.header{
+    background-color: #E9EDF2;
+    padding: 8px 0;
+    height: 15vh;
+}
+
+.headerText{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.headerLink{
+    text-decoration: none;
+    color: #90999C;
+}
+
+.headerP{
+    color: #90999C;
+}
